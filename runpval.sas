@@ -27,7 +27,7 @@
 		%end;
 	%else %if &sysscpl ne Linux and &switch eq 0 %then
 		%do;
-			%put WARNING: This pval utility uses pval Unix command in GSK systems.;
+			%put WARNING: This pval utility uses pval Unix command, where PVAL is compiled as executable.;
 			%put WARNING: Operating system is not supported.;
 		%end;
 	%else %if &switch eq 0 and &sysscpl eq Linux %then
