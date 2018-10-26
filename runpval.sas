@@ -145,7 +145,7 @@
 					/*attach=("&redir/qc/pval/&sysuserid..xlsx")*/
 					subject="PVAL Report for the dataset: &dataset";
 				put "Please click on the following link to open the pval report";
-				put "file:\\&host..corpnet2.com\sjs46682\Desktop\Example\arwork\qc\pval\&sysuserid..xlsx";
+				put "file:\\&host..corpnet2.com\&sysuserid\Desktop\Example\qc\pval\&sysuserid..xlsx";
                 put "NOTE: Please make sure that the server &host is mapped on the Network Drive before clicking on the file";
 			run;
 
