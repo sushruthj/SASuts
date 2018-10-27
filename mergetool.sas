@@ -1,8 +1,8 @@
 /*******************************************************************************
 |
 | Program Name:    mergetool.sas
-| Program Purpose: To merge datasets as listed
-|                 
+| Program Purpose: To merge datasets as listed. This tool automatically sorts and
+|                  merges datasets.
 | SAS Version:     v9.4
 |
 | Created By:      Sushruth J. S.  
