@@ -14,8 +14,8 @@
 
 %macro mergetool (datasets=lib1.abc lib2.xyz lib3.cde,              /*****List of dataset names to be merged****/
                   byvars=var1 var2 var3 var4,                       /*****By Variables given for Merge and sort****/
-		              mergeddatasetname=outdat,                         /*****Output dataset name*****/
-		              indata=abc and xyz or cde);                       /*****For the In-operator used while doing match merging****/
+		  mergeddatasetname=outdat,                         /*****Output dataset name*****/
+		  indata=abc and xyz or cde);                       /*****For the In-operator used while doing match merging****/
 		  
 		  
 		  
